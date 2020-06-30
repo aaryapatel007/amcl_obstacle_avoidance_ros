@@ -1,5 +1,5 @@
 [submodule "pgm_map_creator"]
-	path = src/pgm_map_creator
+	path = pgm_map_creator
 	url = https://github.com/hyfan1116/pgm_map_creator.git
 [submodule "teleop_twist_keyboard"]
 	path = teleop_twist_keyboard
