@@ -80,3 +80,7 @@ Open another terminal and launch the `teleop` script:
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 You could control your robot by keyboard commands now.  
+
+## License
+
+This repository is licensed under the terms of the MIT license.
