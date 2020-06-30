@@ -1,0 +1,14 @@
+local_costmap:
+   global_frame: odom
+   robot_base_frame: robot_footprint
+   update_frequency: 1.0
+   publish_frequency: 0.5
+   width: 10.0
+   height: 10.0
+   resolution: 0.05
+   static_map: false
+   rolling_window: true
+   
+   plugins: 
+    - {name: obstacles,        type: "costmap_2d::ObstacleLayer"}
+    - {name: inflation,        type: "costmap_2d::InflationLayer"}
