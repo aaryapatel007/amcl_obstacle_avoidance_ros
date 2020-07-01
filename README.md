@@ -47,7 +47,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 4. Build and run your code.  
 
 ## Run the project  
-* Clone this repository in the `catkin_ws` folder
+* Clone this repository in the `catkin_ws/src` folder
 ```
 git clone https://github.com/aaryapatel007/amcl_obstacle_avoidance_ros.git
 ```
